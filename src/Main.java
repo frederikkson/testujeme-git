@@ -24,7 +24,7 @@ public class Main {
         {
             WsdlTestCase testCase=testsuite.getTestCaseAt(i);
 
-            //run the testcase
+            //run the testcase qwer
             TestRunner runner=testCase.run(new PropertiesMap(), false);
             assert(runner);
 
