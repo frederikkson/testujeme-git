@@ -19,7 +19,7 @@ public class Main {
         //grab the test suite
         WsdlTestSuite testsuite=project.getTestSuiteByName("TS_Testing");
 
-        //grab the test cases present in test suite
+        //grab the test cases present in test suite, pridany comment
         for(int i=0; i<testsuite.getTestCaseCount();i++)
         {
             WsdlTestCase testCase=testsuite.getTestCaseAt(i);
